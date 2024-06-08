@@ -56,7 +56,7 @@ def get_blur_map(image_file, win_size=10, sv_num=3):
 
 
 import glob
-files = glob.glob("C://Users//Lenovo//Desktop//blurselect//blur_detection-master//blur_detection-master//image_file//test_image6.jpg")
+files = glob.glob("C://Users//Lenovo//Desktop//blur_area_detect//blur_area_detect//image_detect//*.png")
 for file in files:
     get_blur_degree(file)
     print (get_blur_degree)
